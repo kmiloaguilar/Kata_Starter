@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace kata.specs
+namespace kata
 {
-    public class Class1
+    public class Calculadora
     {
+        public int Sumar(string cadena) 
+        {
+            return -1;
+        }
     }
 }
