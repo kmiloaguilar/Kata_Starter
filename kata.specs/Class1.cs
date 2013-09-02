@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Machine.Specifications;
 
 namespace kata.specs
 {
-    public class Class1
+    public class when_running_a_test
     {
+        static string _result;
+
+        Because of =
+            () => _result = "hello".ToUpper();
+
+        It should_pass =
+            () => _result.ShouldEqual("HELLO");
     }
 }
