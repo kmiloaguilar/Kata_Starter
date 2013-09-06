@@ -2,7 +2,7 @@
 
 namespace kata.specs.FizzBuzz
 {
-    public class when_getting_a_number_5 : give_a_fizz_buzzer_context
+    public class when_getting_a_number_5 : given_a_fizz_buzzer_context
     {
         static string _result;
 
