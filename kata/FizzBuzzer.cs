@@ -1,10 +1,10 @@
-﻿namespace kata.specs.FizzBuzz
+﻿namespace kata
 {
     public class FizzBuzzer
     {
         public string Play(int number3)
         {
-            return "";
+            return "Fizz";
         }
     }
 }
