@@ -4,7 +4,8 @@
     {
         public string Play(int number)
         {
-            if (number % 3 == 0)
+            var numberString = number + "";
+            if (number % 3 == 0 || numberString.Contains("3"))
             {
                 return "Fizz";
             }
@@ -12,7 +13,7 @@
             {
                 return "Buzz";
             }
-            return number + "";
+            return numberString;
         }
     }
 }
