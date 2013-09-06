@@ -2,9 +2,13 @@
 {
     public class FizzBuzzer
     {
-        public string Play(int number3)
+        public string Play(int number)
         {
-            return "Fizz";
+            if (number == 3)
+            {
+                return "Fizz";
+            }
+            return number + "";
         }
     }
 }
