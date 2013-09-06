@@ -7,6 +7,6 @@ namespace kata.specs.FizzBuzz
         protected static FizzBuzzer FizzBuzzer;
 
         Establish context =
-            () => { FizzBuzzer = new FizzBuzzer(); };
+            () => { FizzBuzzer = new FizzBuzzer(new FizzBuzzStrategy("Fizz","Buzz",3,5)); };
     }
 }

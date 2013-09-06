@@ -2,18 +2,17 @@
 {
     public class FizzBuzzer
     {
+        readonly IGameStrategy _gameStrategy;
+        
+
+        public FizzBuzzer(IGameStrategy gameStrategy)
+        {
+            _gameStrategy = gameStrategy;
+        }
+
         public string Play(int number)
         {
-            var numberString = number + "";
-            if (number % 3 == 0 || numberString.Contains("3"))
-            {
-                return "Fizz";
-            }
-            if (number % 5 == 0)
-            {
-                return "Buzz";
-            }
-            return numberString;
+            return _gameStrategy.GetNumberString(number);
         }
     }
 }
