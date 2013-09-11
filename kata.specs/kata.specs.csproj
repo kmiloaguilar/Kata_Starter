@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="given_a_fizzbuzzer_context.cs" />
+    <Compile Include="when_any_number.cs" />
+    <Compile Include="when_number_is_5.cs" />
+    <Compile Include="when_number_is_divisible_by_3.cs" />
+    <Compile Include="when_number_is_divisible_by_3_and_by_5.cs" />
+    <Compile Include="when_number_is_divisible_by_5.cs" />
     <Compile Include="when_the_number_is_3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
